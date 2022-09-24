@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["p0p3yee <devp0p3yee@gmail.com>"]
 license = "MIT"
-description = "A simple telegram bot to download sticker set"
+description = "A simple telegram bot to download animated & regular sticker set & custom emoji set"
 homepage = "https://github.com/p0p3yee/telegram-sticker-download-bot"
 repository = "https://github.com/p0p3yee/telegram-sticker-download-bot"
 readme = "README.md"
@@ -14,6 +14,8 @@ keywords = ["telegram", "telegram-bot"]
 
 [dependencies]
 dotenv = "0.15.0"
+lazy_static = "1.4.0"
+regex = "1.6.0"
 teloxide = { version = "0.10.1", features = ["macros", "auto-send"] }
 tokio = { version = "1.21.1", features = ["rt-multi-thread", "macros", "fs"] }
 walkdir = "2.3.2"

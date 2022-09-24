@@ -20,7 +20,7 @@ TELOXIDE_TOKEN=00000000_xxxxxxxxxxxxxxxxxxxxxx
 
 ## TODO
 
-1. Read sticker name from a sticker / sticker link
+1. ~~Read sticker name from a sticker / sticker link~~
 
 2. Error Handling
 
